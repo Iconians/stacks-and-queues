@@ -102,12 +102,12 @@ class Queue<T> {
 }
 
 // Uncomment The Code Below to See If It Works! Feel free to write more code to test and examine the functionality of the queue.
-const queue = new Queue<number>(); // Create a queue that stores numbers
-queue.enqueue(10);
-queue.enqueue(20);
-queue.enqueue(30);
-queue.print(); // Output: 10 <- 20 <- 30
-console.log(queue.dequeue()); // 10
-console.log(queue.peek()); // 20
-console.log(queue.getSize()); // 2
-console.log(queue.isEmpty()); // false
+// const queue = new Queue<number>(); // Create a queue that stores numbers
+// queue.enqueue(10);
+// queue.enqueue(20);
+// queue.enqueue(30);
+// queue.print(); // Output: 10 <- 20 <- 30
+// console.log(queue.dequeue()); // 10
+// console.log(queue.peek()); // 20
+// console.log(queue.getSize()); // 2
+// console.log(queue.isEmpty()); // false
