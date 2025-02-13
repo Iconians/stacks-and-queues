@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
     "url": "https://github.com/Iconians/stacks-and-queues/issues"
   },
   "homepage": "https://github.com/Iconians/stacks-and-queues#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "vitest": "^3.0.5"
+  }
 }

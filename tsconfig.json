@@ -6,5 +6,17 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true
-  }
+  },
 }
+// {
+//   "compilerOptions": {
+//     "module": "ESNext",
+//     "target": "ESNext",
+//     "moduleResolution": "node",
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "strict": true
+//   },
+//   "include": ["./**/*.ts"],
+//   "exclude": ["node_modules"]
+// }

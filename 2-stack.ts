@@ -12,7 +12,7 @@ class StackNode<T> {
   }
 }
 
-class Stack<T> {
+export class Stack<T> {
   private top: StackNode<T> | null;
   private size: number;
 
@@ -83,12 +83,12 @@ class Stack<T> {
 }
 
 // Uncomment The Code Below to See If It Works! Feel free to write more code to test and examine the functionality of the stack.
-const stack = new Stack<number>(); // Create a stack that stores numbers
-stack.push(10);
-stack.push(20);
-stack.push(30);
-stack.print(); // Output: 10 | 20 | 30
-console.log(stack.pop()); // 30
-console.log(stack.peek()); // 20
-console.log(stack.getSize()); // 2
-console.log(stack.isEmpty()); // false
+// const stack = new Stack<number>(); // Create a stack that stores numbers
+// stack.push(10);
+// stack.push(20);
+// stack.push(30);
+// stack.print(); // Output: 10 | 20 | 30
+// console.log(stack.pop()); // 30
+// console.log(stack.peek()); // 20
+// console.log(stack.getSize()); // 2
+// console.log(stack.isEmpty()); // false

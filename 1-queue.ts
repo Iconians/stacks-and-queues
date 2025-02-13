@@ -12,7 +12,7 @@ class QueueNode<T> {
   }
 }
 
-class Queue<T> {
+export class Queue<T> {
   private front: QueueNode<T> | null;
   private rear: QueueNode<T> | null;
   private size: number;
