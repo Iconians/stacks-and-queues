@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test-queue": "vitest tests/4-algos-queue.test.ts",
+    "test-stack": "vitest tests/4-algos-stack.test.ts"
   },
   "repository": {
     "type": "git",
