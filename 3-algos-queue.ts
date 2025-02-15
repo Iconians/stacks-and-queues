@@ -111,10 +111,6 @@ export class myStack<T> {
 // Given a 2D grid where `0` is an empty cell, `1` is a fresh orange, and `2` is a rotten orange,
 // determine the minimum number of minutes needed for all fresh oranges to rot. Use BFS with a queue.
 
-const isSafe = (i: number, j: number, n: number, m: number): boolean => {
-  return i >= 0 && i < n && j >= 0 && j < m;
-};
-
 export const orangesRotting = (grid: number[][]) => {
   const n = grid.length;
   const m = grid[0].length;
@@ -137,6 +133,10 @@ export const orangesRotting = (grid: number[][]) => {
       }
     }
   }
+
+  const isSafe = (i: number, j: number, n: number, m: number): boolean => {
+    return i >= 0 && i < n && j >= 0 && j < m;
+  };
 
   while (!queue.isEmpty() && freshOranges > 0) {
     const size = queue.getSize();

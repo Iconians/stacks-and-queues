@@ -5,7 +5,8 @@
   "scripts": {
     "test": "vitest",
     "test-queue": "vitest tests/4-algos-queue.test.ts",
-    "test-stack": "vitest tests/4-algos-stack.test.ts"
+    "test-stack": "vitest tests/4-algos-stack.test.ts",
+    "test-basic-queue": "vitest tests/3-basic-algos-queue.test.ts"
   },
   "repository": {
     "type": "git",
